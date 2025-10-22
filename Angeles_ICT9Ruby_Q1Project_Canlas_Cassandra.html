@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q1 Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f7ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #b3e0ff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #99d6ff;
+    }
+    nav {
+      background-color: #cceeff;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+      font-weight: bold;
+    }
+    nav a {
+      text-decoration: none;
+      color: #006699;
+      font-size: 16px;
+    }
+    .section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #b3e0ff;
+    }
+    .logo {
+      width: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+    h1, h2 {
+      color: #3399cc;
+    }
+    ul, ol, dl {
+      margin-left: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #99d6ff;
+      border-radius: 5px;
+    }
+    .submit {
+      background-color: #66ccff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .submit:hover {
+      background-color: #3399cc;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#works">Works</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <header>
+    <h1>Hello, I am Cassandra Canlas !!</h1>
+    <img src="personalportfolio.jfif" alt="My Logo" class="logo">
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>Hi! My name is Cassandra Canlas, I am a student of OBMC AN - 9 Ruby. I am a student who is passionate about writing, drawing, and photography. 🩵</p>
+    <p>My hobbies are:</p>
+    	<dl>
+    		<dt>- Sports</dt>
+    		<dd>I like sports such as gymnastics, football, pickleball, badminton, and swimming.</dd>
+    		<dt>- Music/Instruments</dt>
+    		<dd>I like music and I love to play instruments. I have learned to play many, such as the guitar, ukulele, chello, violin, piano, flute, melodica, bass, and more. My main instrument as of now are drums.</dd>
+    		<dt>- Cooking/Baking</dt>
+    		<dd>I am a big fan of cooking and baking, but I mostly bake! I love baking cookies, brownies, and cupcakes for my loved ones.</dd>
+    	</dl>
+
+  </div>
+
+<div class="section">
+  <h2>My Works</h2>
+
+  <div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 30px;">
+    <img src="nana.jpg" style="width: 45%; max-width: 300px; border-radius: 10px; margin-right: 5%;">
+    <div style="flex: 1;">
+      <h3>My Personal Slambook</h3>
+      <p>My Personal Slambook is a code I made that contains:</p>
+      	<ul>
+      		<li>soft-pastel themed layout</li>
+      		<li>created using HTML and CSS</li>
+      		<li>information all about me</li>
+      	</ul>
+
+      <a href="file:///C:/Users/cassa/OneDrive/Desktop/9%20ICT/PersonalSlambook.html">View Personal Slambook</a>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <img src="eyes.jpg" style="width: 45%; max-width: 300px; border-radius: 10px; margin-right: 5%;">
+    <div style="flex: 1;">
+      <h3>My Top 3 Favorite Movies</h3>
+      <p>This HTML website contains:</p>
+      	<ul>
+      		<li>my top three favorite movies</li>
+      		<li>why I like these movies</li>
+      		<li>why you should watch these movies</li>
+      	</ul>
+      <a href="file:///C:/Users/cassa/OneDrive/Desktop/9%20ICT/Angeles_ICT9Ruby_Q1SW1_Canlas_Cassandra.html" target="_blank">View My Top 3 Favorite Movies</a>
+    </div>
+  </div>
+</div>
+
+  <div class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <div>
+        <label for="name"><span>Name:</span></label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email"><span>Email:</span></label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="message"><span>Message:</span></label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="submit">Send 🩵</button>
+    </form>
+  </div>
+
+</body>
+</html>
